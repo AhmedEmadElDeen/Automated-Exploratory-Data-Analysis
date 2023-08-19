@@ -54,7 +54,7 @@ def visualize_data(df, target_column):
 
 
 def main():
-    df = load_data(file_path,file_path)
+    df = load_data(file_path,file_format)
     data_inspection(df)
     preprocessed_data = preprocess_data(df)
     target_column = input('Choose column to visualise')
