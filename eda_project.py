@@ -40,6 +40,7 @@ def visualize_data(df, target_column):
         plt.title(f'Histogram of {target_column}')
         plt.xlabel(target_column)
         plt.ylabel('Frequency')
+        plt.grid()
         plt.show()
     elif column_data.dtype == 'object':
         plt.figure(figsize=(8, 6))
@@ -47,6 +48,7 @@ def visualize_data(df, target_column):
         plt.title(f'Frequency of {target_column}')
         plt.xlabel(target_column)
         plt.ylabel('Frequency')
+        plt.grid()
         plt.show()
 
 def main():
