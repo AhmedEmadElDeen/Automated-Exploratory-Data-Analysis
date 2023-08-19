@@ -43,7 +43,7 @@ def visualize_data(df, target_column):
     if df[target_column].dtype == 'int' or df[target_column].dtype == 'float':
         plt.figure(figsize=(8, 6))
         plt.hist(column_data, bins=20)
-        plt.title(f'Histogram of {column_name}')
+        plt.title(f'Histogram of {target_column}')
         plt.xlabel(target_column)
         plt.ylabel('Frequency')
         plt.show()
