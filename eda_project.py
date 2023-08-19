@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 file_path = input('Insert the path of your dataframe: ')
-file_format = input('What is your data format? (csv or excel): ')
+file_format = input('What is your data format? (csv or xlsx): ')
 
 def load_data(file_path, file_format):
     if file_format == 'csv':
