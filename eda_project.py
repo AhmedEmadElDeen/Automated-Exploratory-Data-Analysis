@@ -8,7 +8,7 @@ file_format = input('What is your data format? (csv or xlsx): ')
 def load_data(file_path, file_format):
     if file_format == 'csv':
         df = pd.read_csv(file_path)
-    elif file_format == 'excel':
+    elif file_format == 'xlsx':
         df = pd.read_excel(file_path)
     return df
 
